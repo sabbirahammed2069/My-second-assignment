@@ -6,6 +6,21 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body{
+    max-width: 1600px ;
+    margin-inline: auto;
+}
+
+/* shared classes */
+.btn-gradient {
+    padding: 12px 16px;
+    border-radius:100px;
+    color: #FFFFFF;
+    background-image: linear-gradient(45deg,#9100F8,#FB09B4,#F7E93F);
+}
+
+
+
 
 /* navbre design */
 
@@ -17,9 +32,12 @@ nav{
     color: #FFFFFF;
     padding: 16px 200px;
     align-items: center;
-    max-width: 992px ;
-    margin: 0px auto;
 
+}
+nav .color-uni{
+     background: -webkit-linear-gradient(80deg,#9100F8,#FB09B4,#F7E93F);
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 nav div  {
@@ -28,9 +46,55 @@ nav div  {
     /* border: solid #FFFFFF; */
 
 }  
-nav button {  
-padding: 12px 16px;
-border-radius:100px;
-background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
-color: #FFFFFF;
+
+
+/* section banner er kaj */
+
+#banner{
+    max-width: 1600px ;
+    padding-block: 100px;
+    display: flex;
+    margin-inline: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center, bottom center;
+    
 }
+.banner-image{
+width: 350px;
+height: 350px;
+   position: relative;
+   z-index: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 2px solid green; */
+}
+
+.microphone-img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+
+ #banner h1 {
+    font-size:60px;
+    font-weight:900;
+    color:#f5e6e6;
+    margin: 40px auto 8px;
+    text-align: center;
+
+}
+
+.banner-content p {
+
+   
+}
+
+
