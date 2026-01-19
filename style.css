@@ -64,14 +64,14 @@ nav div  {
     
 }
 .banner-image{
-width: 350px;
-height: 350px;
-   position: relative;
-   z-index: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   /* border: 2px solid green; */
+    width: 350px;
+     height: 350px;
+    position: relative;
+     z-index: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      /* border: 2px solid green; */
 }
 
 .microphone-img{
@@ -97,4 +97,47 @@ height: 350px;
    
 }
 
+#statick{
+   background-color: #1A0B2E;
+   padding: 50px 200px 120px 200px;
+}
 
+#statick h1 {
+    /* border: 2px solid #9100F8; */
+    font-size:48px;
+    font-weight: 700;
+    color:#FFFFFF; 
+    text-align: center;
+    gap: 16px;
+}
+#statick p{
+   /* border: 2px solid #9100F8; */
+   font-weight: 400;
+    font-size:16px;
+    color:#FFFFFF; 
+    text-align: center;  
+}
+
+
+.statictiks{
+    background-color: #1A0B2E;
+    color:#FFFFFF; 
+
+}
+.statictiks span {
+    color: #00FF88 ;
+    font-weight:900;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+
+}
+.statictiks p{
+    background-color: #1A0B2E;
+    color:#FFFFFF; 
+    font-weight: 240;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+
+}
