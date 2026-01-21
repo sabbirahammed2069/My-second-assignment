@@ -185,11 +185,11 @@ nav div  {
     gap: 30px;
     max-width: 1200px;
     margin-inline: auto;
-    border: 2px solid #00FF88;
+    /* border: 2px solid #00FF88; */
     
 }
 .box-1 {
-    border: 2px solid #00FF88;
+    /* border: 2px solid #00FF88; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,23 +201,23 @@ nav div  {
 .box-2 {
      grid-column: span 4;
      grid-row: span 3 ;
-border: 2px solid #00FF88;
+/* border: 2px solid #00FF88; */
 }
    
 .box-3 {
      grid-column: span 4;
      grid-row: span 3;
-border: 2px solid #00FF88;
+/* border: 2px solid #00FF88; */
 }
 .box-4 {
      grid-column: span 4;
      grid-row: span  4;
-border: 2px solid #00FF88;
+/* border: 2px solid #00FF88; */
 }
 .box-5 {
      grid-column: span 2;
      grid-row: span  4;
-border: 2px solid #00FF88;
+/* border: 2px solid #00FF88; */
 }
 
 .box-1, .box-2, .box-3, .box-4, .box-5{
@@ -230,4 +230,84 @@ border: 2px solid #00FF88;
 .grid-container h3 {
     margin-block: 16px;
 
+}
+
+#meet-the-host{
+   color: #FFFFFF;
+   max-width: ;
+   padding: 120px 200px 120px 200px;
+}
+
+#meet-the-host h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    font-size: 48px;
+    margin-bottom: 40px;
+   
+
+}
+
+.meet{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap:30px;
+border: 2px solid #F7E93F;
+}
+
+.meet h3 {
+    font-weight:700;
+    font-size: 24px;
+    margin-bottom: 12px;
+    border: 2px solid #F7E93F;
+}
+.meet p {
+    margin-bottom: 12px;
+    border: 2px solid #F7E93F;
+}
+
+.content-1-img{
+    background-image: url("./assets/Rectangle\ 1.png");
+    max-width: 380px;
+    height: 214px;
+}
+
+
+#host-card h1{
+    margin-top: 120px;
+    font-size: 48ox;
+  
+}
+
+.host {
+    margin-top: 40px;
+    background-color: #533C72;
+    border-radius: 40px;
+    display: flex;
+    padding: 40px;
+    gap: 34px;
+}
+
+
+
+
+.host-text{
+    /* border: 2px solid #38a317; */
+    gap: 16px;
+}
+
+.host-text p{
+    margin-top:16px;
+    margin-bottom:16px ;
+}
+
+.icon{
+    box-sizing: border-box;
+    width: 40;
+    border-radius: 100%;
+    gap: 8px;
+   
 }
